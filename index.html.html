@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Special Surprise</title>
+</head>
+
+<body style="background:#fff0f6; text-align:center; font-family:Arial;">
+
+  <h1 id="title">🌸 Hello 🌸</h1>
+
+  <p id="step1">
+    Click the button to begin your surprises 😊
+  </p>
+
+  <button onclick="firstSurprise()">Start</button>
+
+  <br><br>
+
+  <button onclick="secondSurprise()">Next Surprise</button>
+
+  <br><br>
+
+  <button onclick="finalSurprise()">Final Surprise 👑</button>
+
+  <script>
+    function firstSurprise() {
+      document.getElementById("title").innerHTML = "💖 Hey Sneha 💖";
+      document.getElementById("step1").innerHTML =
+        "I have a small surprise for you 🤍<br><br>" +
+        "I think about you and your smile often 🙊";
+        "I write this with a hopeful heart 😊 <br><br>"
+      document.body.style.background = "#fde2ff";
+    }
+
+    function secondSurprise() {
+      document.getElementById("step1").innerHTML =
+        "🌸💖🌸💖🌸💖🌸<br><br>" +
+        "Even after months,<br>" +
+        "I overthink about the moments which i spent with you. <br><br>" +
+        "At one moment i think for my actions which do with you will never forgive me, I crossed my limit at one time. <br><br>" + 
+        "I think youi will never want to talk with me again. <br><br>" +
+        "But when you message me, My hole body was freeze at that moment. <br><br>" +
+        "I feel so ahppy to see your nanme on my phone screen. <br><br>" +
+        "Now i think that past thing would not be affect our pure and real freindship. <br><br>" +
+        "And at last i hope you will forgive me for my all mistakes. <br><br>" +
+        "🌸💖🌸💖🌸💖🌸";
+      document.body.style.background = "#e0f7fa";
+    }
+
+    function finalSurprise() {
+      document.getElementById("step1").innerHTML =
+        "👑 Princess Sneha 👑<br><br>" +
+        "This message is simple and honest 🤍<br><br>" +
+        "I missed talking to you.<br>" +
+        "No pressure. No expectations.<br><br>" +
+        "Just wanted you to know —<br>" +
+        "you’re special ✨";
+      document.body.style.background = "#fff9c4";
+    }
+  </script>
+
+</body>
+</html>
